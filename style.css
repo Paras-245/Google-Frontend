@@ -1,0 +1,31 @@
+.searchBar
+{
+    border: .5px solid rgb(207, 203, 203);
+    border-radius: 24px;
+    height: 50px;
+    width: 600px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+.searchBar:hover
+{
+    box-shadow: 0 0 10px rgb(187, 178, 178);
+}
+.appbar {
+    color: #d93025; 
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.horizontalLine
+{
+    border-bottom: 1px solid rgb(172, 166, 166);
+}
+
+.inputField
+{
+    width: 500px;
+
+    
+}

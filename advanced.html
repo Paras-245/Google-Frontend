@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">]
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="nav nav-underline justify-content-between" style="padding: 10mm;">
+        <div style="margin-right: 20px;">
+            <img src="google.png" alt="Google" width="74" height="24">
+        </div>
+        <div>
+            <a class="nav-link btn-secondary  " aria-current="page" href="search.html">Google Search</a>
+        </div>
+    </nav>
+    <!-- advanced Search -->
+    <div class="appbar">
+        <label style="margin-left:10px">Advanced Search</label>
+    </div>
+    <!-- horizonatal bar -->
+    <div class="horizontalLine"></div>
+
+    <!-- form -->
+    <h5 class="m-5">Find pages with....</h5>
+    <form action="https://google.com/search" class= "m-5 ">
+        <!-- <div>
+            <input class="searchBar" type="text" name="q">
+        </div> -->
+        <div class="mb-3 inputField justify-content-between">
+            <label for="exampleFormControlInput1" class="form-label">all these words:</label>
+            <input type="text" class="form-control" name="as_q" >
+          </div>
+        <div class="mb-3 inputField justify-content-between">
+            <label for="exampleFormControlInput1" class="form-label">this exact word or phrase</label>
+            <input type="text" class="form-control" name="as_epq" >
+          </div>
+        <div class="mb-3 inputField justify-content-between">
+            <label for="exampleFormControlInput1" class="form-label">any of these words:</label>
+            <input type="text" class="form-control" name="as_oq" >
+          </div>
+        <div class="mb-3 inputField justify-content-between">
+            <label for="exampleFormControlInput1" class="form-label">none of these words:</label>
+            <input type="text" class="form-control" name="as_eq" >
+          </div>
+
+          <button type="submit" class="btn btn-primary">Advanced Search</button>
+          </form>
+
+
+</body>
+
+</html>
