@@ -1,6 +1,5 @@
 # Google Frontend 
 
-![Project Image](./google.png)
 
 ## Table of Contents
 - [Description](#description)
